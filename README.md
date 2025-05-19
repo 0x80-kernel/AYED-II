@@ -28,7 +28,7 @@ clase que implementa ConjuntoEspecialTDA, con representación dinamica.
 DiccionarioSimpleTDA, con la particularidad de registrar la cantidad de veces que el valor
 se ve modificado. Codificar la clase que implementa DiccionarioSimpleModTDA, con
 representación dinámica. La interfaz del mismo es la siguiente:
-
+```java
     public interface DiccionarioSimpleModTDA {
     public void inicializarDiccionario(); //inicializa el TDA
     public void agregar(int clave, int valor); //agrega el par clave-valor al TDA,
@@ -46,7 +46,7 @@ representación dinámica. La interfaz del mismo es la siguiente:
     //supone existente
     public ConjuntoTDA claves(); //devuelve el conjunto de claves
     }
-
+```
 3. Se define un método que reciba una PilaTDA y devuelva un int (número entero) con
 la cantidad de elementos pares de la pila. Codificar la clase que implementa PilaTDA, con
 representación dinámica
